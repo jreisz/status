@@ -1,5 +1,5 @@
 
-# React Notes
+# React Status
 
 Live Status application provides a list of nodes and their respective status (Loading/Online/Offline). 
 
