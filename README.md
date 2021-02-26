@@ -8,7 +8,7 @@ The application is getting the status for each node and updating the state autom
 
 [Demo](https://jreisz.github.io/notepad/)
 
-![Screenshot](./public/assets/img/demo.gif)
+![Screenshot](./demo.gif)
 
 ## Development
 
