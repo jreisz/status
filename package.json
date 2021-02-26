@@ -1,7 +1,8 @@
 {
-  "name": "toy-blocks-client-react",
+  "homepage": "https://jreisz.github.io/status",
+  "name": "live-status-updater",
   "version": "0.1.0",
-  "description": "Toy blocks client",
+  "description": "status updater client",
   "engines": {
     "npm": ">=3"
   },
@@ -17,14 +18,15 @@
     "clean-dist": "npm run remove-dist && mkdir dist",
     "remove-dist": "rimraf ./dist",
     "prebuild": "npm run lint && npm run test && npm run clean-dist",
-    "build": "babel-node tools/build.js && npm run open:dist",
+    "build": "babel-node tools/build.js && npm run open:dist",    
     "test": "jest",
     "test:CI": "babel-node tools/testCi.js",
     "test:cover": "npm run test -- --coverage ",
     "test:cover:CI": "npm run test:CI -- --coverage && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "test:watch": "jest --watch",
     "open:cover": "npm run test:cover && opn ./coverage/lcov-report/index.html",
-    "analyze-bundle": "babel-node ./tools/analyzeBundle.js"
+    "analyze-bundle": "babel-node ./tools/analyzeBundle.js",    
+    "deploy": "gh-pages -d dist"
   },
   "author": "Ben Carle",
   "license": "MIT",
@@ -32,6 +34,7 @@
     "@material-ui/core": "4.9.9",
     "@material-ui/icons": "4.9.1",
     "cross-fetch": "3.0.4",
+    "ghpages": "0.0.10",
     "object-assign": "4.1.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
