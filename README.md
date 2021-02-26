@@ -1,7 +1,10 @@
 
 # React Notes
 
-Notes application provides a simple list of notes.
+Live Status application provides a list of nodes and their respective status (Loading/Online/Offline). 
+
+The current application is displaying a list of nodes. Each node represents a server which has many blocks and the blocks for each node are returned from the blocks endpoint.
+The application is getting the status for each node and updating the state automatically. 
 
 [Demo](https://jreisz.github.io/notepad/)
 
