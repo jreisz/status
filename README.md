@@ -10,9 +10,10 @@ Notes application provides a simple list of notes.
 ## Development
 
 ```sh
-$ git clone https://github.com/jreisz/notepad.git
+$ git clone https://github.com/jreisz/status
 $. `npm install` – install dependencies
-$. `npm test` – run all tests (should fail unless you fix the app)
+$. `npm test` – run all tests 
+$. `npm test:cover` – run test coverage 
 $. `npm start` – serve the app at [http://localhost:3000/](http://localhost:3000/) (it automatically opens the app in your default browser)
 ```
 
@@ -22,7 +23,7 @@ Changes and improvements are more than welcome! Feel free to fork and open a pul
 
 ## TODO
 
-- Hooks Refactoring
+- UX/UI Styling
 
 ## License
 
