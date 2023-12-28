@@ -14,7 +14,7 @@ import { hot } from "react-hot-loader";
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename={"stats"}>
         <Switch>
           <Route exact path="/" component={Nodes} />
           <Route component={NotFoundPage} />
@@ -25,7 +25,7 @@ class App extends React.Component {
 }
 
 App.propTypes = {
-  children: PropTypes.element
+  children: PropTypes.element,
 };
 
 export default hot(module)(App);
