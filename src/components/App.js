@@ -14,7 +14,7 @@ import { hot } from "react-hot-loader";
 class App extends React.Component {
   render() {
     return (
-      <Router basename={"status"}>
+      <Router basename={window.location.pathname.replace(/(\/[^/]*)$/, "")}> 
         <Switch>
           <Route exact path="/" component={Nodes} />
           <Route component={NotFoundPage} />
