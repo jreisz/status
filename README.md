@@ -6,7 +6,7 @@ Live Status application provides a list of nodes and their respective status (Lo
 The current application is displaying a list of nodes. Each node represents a server which has many blocks and the blocks for each node are returned from the blocks endpoint.
 The application is getting the status for each node and updating the state automatically. 
 
-[Demo](https://jreisz.github.io/notepad/)
+[Demo](https://jreisz.github.io/status/)
 
 ![Screenshot](./demo.gif)
 
