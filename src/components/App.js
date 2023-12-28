@@ -14,7 +14,7 @@ import { hot } from "react-hot-loader";
 class App extends React.Component {
   render() {
     return (
-      <Router basename={"stats"}>
+      <Router basename={"status"}>
         <Switch>
           <Route exact path="/" component={Nodes} />
           <Route component={NotFoundPage} />
