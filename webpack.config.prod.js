@@ -21,7 +21,7 @@ export default {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '/status',
     filename: '[name].[chunkhash].js'
   },
   plugins: [
